@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Автосалон</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+<script src="js/jquery.min.js"></script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Bike-shop Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400' rel='stylesheet' type='text/css'>
+<!--webfont-->
+<!-- dropdown -->
+<script src="js/jquery.easydropdown.js"></script>
+<link href="css/nav.css" rel="stylesheet" type="text/css" media="all"/>
+<script src="js/scripts.js" type="text/javascript"></script>
+<!--js-->
+<!--Не всегда работает, надо переделать>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+
+
+</head>
+<body>
+<!--banner-->
+<script src="js/responsiveslides.min.js"></script>
+<script>  
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+<div class="banner-bg banner-bg1">	
+	  <div class="container">
+			 <div class="header">
+			       <div class="logo">
+						 <a href="index.html"><img src="images/logo.png" width="120" height="40" alt=""/></a>
+				   </div>							 
+				  <div class="top-nav">										 
+						<label class="mobile_menu" for="mobile_menu">
+						<span>Меню</span>
+						</label>
+						<input id="mobile_menu" type="checkbox">
+					   <ul class="nav">
+						  <li class="dropdown1"><a href="404.html">АВТОМОБИЛИ</a>
+							  <ul class="dropdown2">
+									<li><a href="single1.html">NISSAN GT-R 2018</a></li>
+									<li><a href="single2.html">SUBARU BRZ 2016</a></li>
+									<li><a href="single3.html">SUBARU IMPREZA WRX STI 2018</a></li>
+									<li><a href="single4.html">TOYOTA SUPRA 1989</a></li>
+									<li><a href="single5.html">TOYOTA MR2 1986</a></li>	
+									<li><a href="single6.html">MITSUBISHI LANCER EVOLUTION 9 2006</a></li>	
+									<li><a href="single7.html">LEXUS LC500 2018</a></li>	
+									<li><a href="single8.html">HONDA CIVIC TYPE R 2018</a></li>
+									<li><a href="single9.html">TOYOTA SUPRA 1994</a></li>									
+							  </ul>
+						  </li>
+					  <li class="dropdown1"><a href="404.html">ЗАПЧАСТИ</a>
+							 <ul class="dropdown2">
+									<li><a href="404.html">ДВС</a></li>
+									<li><a href="404.html">КУЗОВ</a></li>
+									<li><a href="404.html">ХОДОВАЯ ЧАСТЬ</a></li>
+									<li><a href="404.html">ТРАНСМИССИЯ</a></li>
+							  </ul>
+						 </li>    
+						 <li class="dropdown1"><a href="404.html">АКСЕССУАРЫ</a>
+							 <ul class="dropdown2">
+									<li><a href="404.html">ДИСКИ</a></li>
+										<li><a href="404.html">СИДЕНИЯ</a></li>
+										<li><a href="404.html">ОБВЕС</a></li>
+										<li><a href="404.html">ФАРЫ</a></li>
+							  </ul>
+						 </li>              
+						 <li class="dropdown1"><a href="contact.html">О НАС</a>
+							 <ul class="dropdown2">
+									<li><a href="contact.html">КОНТАКТЫ</a></li>
+							  </ul>
+						 </li>
+						  <a class="shop" href="404.html"><img src="images/cart.png" alt=""/></a>
+					  </ul>
+				 </div>
+				 <div class="clearfix"></div>
+			 </div>
+	  </div>	 
+	 <div class="caption">
+		 <div class="slider">
+					   <div class="callbacks_container">
+						   <ul class="rslides" id="slider">
+							    <li><h1>НОВЫЕ ПОСТУПЛЕНИЯ</h1></li>
+								<li><h1>ВЫБЕРИТЕ АВТО СВОЕЙ МЕЧТЫ</h1></li>	
+								<li><h1>ДОСТАВКА АВТО ПРЯМО К ПОРОГУ</h1></li>	
+						  </ul>
+						  <p>Вы <span>просто</span> выбираете <span>авто</span> и мы доставим его <span>к вам домой.</span></p>
+						  <a class="morebtn" href="404.html">КАТАЛОГ</a>
+					  </div>
+				  </div>
+	 </div>
+	 <div class="dwn">
+		<a class="scroll" href="#cate"><img src="images/scroll.png" alt=""/></a>
+	 </div>				 
+</div>
+<!--/banner-->
+<div id="cate" class="categories">
+	 <div class="container">
+		 <h2>КАТЕГОРИИ</h2>
+		 <div class="categorie-grids">
+			 <a href="404.html"><div class="col-md-4 cate-grid grid1">
+				 <h4>ТУРБО</h4>
+				 <p>Хотите ощутить резкий подхват турбомотора?</p>
+				 <a class="store" href="404.html">В МАГАЗИН</a>
+			 </div></a>
+			 <a href="404.html"><div class="col-md-4 cate-grid grid2">
+				 <h4>КОМПРЕССОР</h4>
+				 <p>Огромный объем ДВС с неповторимым звуком</p>
+				 <a class="store" href="404.html">В МАГАЗИН</a>
+			 </div></a>
+			 <a href="404.html"><div class="col-md-4 cate-grid grid3">
+				 <h4>АТМО</h4>
+				 <p>Классические японские автомобили с задним приводом</p>
+				 <a class="store" href="404.html">В МАГАЗИН</a>
+			 </div></a>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!--bikes-->
+<div class="bikes">	
+		 <h3>ПОПУЛЯРНЫЕ МОДЕЛИ</h3>
+		 <div class="bikes-grids">			 
+			 <ul id="flexiselDemo1">
+				 <li>
+					 <img src="images/bik1.jpg" alt=""/>
+					 <div class="bike-info">
+						 <div class="model">
+							 <h4>NISSAN GT-R 2018<span>$34 990.00</span></h4>							 
+						 </div>
+						 <div class="model-info">
+						     <select>
+							  <option value="volvo">ОПЦИИ</option>
+							  <option value="saab">573 Л.С.</option>
+							  <option value="opel">660 Л.С.</option>
+							  <option value="audi">800 Л.С.</option>
+							 </select>
+							 <a href="single1.html">КУПИТЬ</a>
+						 </div>						 
+						 <div class="clearfix"></div>
+					 </div>
+					 <div class="viw">
+						<a href="single1.html">Быстрый просмотр</a>
+					 </div>
+				 </li>
+				 <li>
+				 <img src="images/bik2.jpg" alt=""/>
+				 <div class="bike-info">
+						 <div class="model">
+							 <h4>SUBARU BRZ 2016<span>$21 990.00</span></h4>							 
+						 </div>
+						 <div class="model-info">
+						     <select>
+							  <option value="volvo">ОПЦИИ</option>
+							  <option value="saab">200 Л.С.</option>
+							  <option value="opel">260 Л.С.</option>
+							  <option value="audi">320 Л.С.</option>
+							 </select>
+							 <a href="single2.html">КУПИТЬ</a>
+						 </div>						 
+						 <div class="clearfix"></div>
+					 </div>
+					 <div class="viw">
+						<a href="single2.html">Быстрый Просмотр</a>
+					 </div>
+				 </li>
+				 <li>
+					 <img src="images/bik3.jpg" alt=""/>
+					 <div class="bike-info">
+						 <div class="model">
+							 <h4>SUBARU IMPREZA WRX STI 2018<span>$18 990.00</span></h4>							 
+						 </div>
+						 <div class="model-info">
+						     <select>
+							  <option value="volvo">ОПЦИИ</option>
+							  <option value="saab">280 Л.С.</option>
+							  <option value="opel">360 Л.С.</option>
+							 </select>
+							 <a href="single3.html">КУПИТЬ</a>
+						 </div>						 
+						 <div class="clearfix"></div>
+					 </div>
+					 <div class="viw">
+						<a href="single3.html">Быстрый Просмотр</a>
+					 </div>
+				 </li>
+				 <li>
+				     <img src="images/bik4.jpg" alt=""/>
+					 <div class="bike-info">
+						 <div class="model">
+							 <h4>TOYOTA SUPRA 1986<span>$12 490.00</span></h4>							 
+						 </div>
+						 <div class="model-info">
+						     <select>
+							  <option value="volvo">ОПЦИИ</option>
+							  <option value="saab">180 Л.С.</option>
+							  <option value="opel">220 Л.С.</option>
+							  <option value="audi">280 Л.С.</option>
+							 </select>
+							 <a href="single4.html">КУПИТЬ</a>
+						 </div>						 
+						 <div class="clearfix"></div>
+					 </div>
+					 <div class="viw">
+						<a href="single4.html">Быстрый Просмотр</a>
+					 </div>
+				 </li>
+				 <li>
+					 <img src="images/bik5.jpg" alt=""/>
+					 <div class="bike-info">
+						 <div class="model">
+							 <h4>TOYOTA MR2 1989<span>$8 990.00</span></h4>							 
+						 </div>
+						 <div class="model-info">
+						     <select>
+							  <option value="volvo">ОПЦИИ</option>
+							  <option value="saab">160 Л.С.</option>
+							  <option value="opel">210 Л.С.</option>
+							  <option value="audi">280 Л.С.</option>
+							 </select>
+							 <a href="single5.html">КУПИТЬ</a>
+						 </div>						 
+						 <div class="clearfix"></div>
+					 </div>
+					 <div class="viw">
+						<a href="single5.html">Быстрый Просмотр</a>
+					 </div>
+				 </li>
+				 <li>
+				      <img src="images/bik6.jpg" alt=""/>
+					  <div class="bike-info">
+						 <div class="model">
+							 <h4>MITSUBISHI LANCER EVOLUTION 9 2006<span>$15 490.00</span></h4>							 
+						 </div>
+						 <div class="model-info">
+						     <select>
+							  <option value="volvo">ОПЦИИ</option>
+							  <option value="saab">280 Л.С.</option>
+							 </select>
+							 <a href="single6.html">КУПИТЬ</a>
+						 </div>						 
+						 <div class="clearfix"></div>
+					 </div>
+					 <div class="viw">
+						<a href="single6.html">Быстрый Просмотр</a>
+					 </div>
+				 </li>
+		    </ul>
+			<script type="text/javascript">
+			 $(window).load(function() {			
+			  $("#flexiselDemo1").flexisel({
+				visibleItems: 3,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover:true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: { 
+					portrait: { 
+						changePoint:480,
+						visibleItems: 1
+					}, 
+					landscape: { 
+						changePoint:640,
+						visibleItems: 2
+					},
+					tablet: { 
+						changePoint:768,
+						visibleItems: 3
+					}
+				}
+			});
+			});
+			</script>
+			<script type="text/javascript" src="js/jquery.flexisel.js"></script>			 
+	</div>
+</div>
+<!---->
+<div class="contact">
+	<div class="container">
+		<h3>ЗАПОЛНИТЕ ЗАЯВКУ</h3>
+		<p></p>
+		<form>
+			 <input type="text" placeholder="ИМЯ" required="">
+			 <input type="text" placeholder="ФАМИЛИЯ" required="">			 
+			 <input class="user" type="text" placeholder="E-MAIL@MAIL.COM" required=""><br>
+			 <textarea placeholder="СООБЩЕНИЕ"></textarea>
+			 <input type="submit" value="ОТПРАВИТЬ">
+		</form>
+	</div>
+</div>
+<!---->
+<div class="footer">
+	 <div class="container wrap">
+		<div class="logo2">
+			 <a href="index.html"><img src="images/logo2.png" width="120" height="40" alt=""/></a>
+		</div>
+		<div class="ftr-menu">
+			 <ul>
+				 <li><a href="404.html">АВТОМОБИЛИ</a></li>
+				 <li><a href="404.html">ЗАПЧАСТИ</a></li>
+				 <li><a href="404.html">АКСЕССУАРЫ</a></li>
+				 <li><a href="contact.html">О НАС</a></li>
+			 </ul>
+		</div>
+		<div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+
+</body>
+</html>
+
